@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Text::MetaText
 Summary(zh_CN):	Text::MetaText Perl дё©И
 Name:		perl-Text-MetaText
 Version:	0.22
-Release:	10
+Release:	11
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
