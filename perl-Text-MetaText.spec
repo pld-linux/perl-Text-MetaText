@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	MetaText
+%define		pdir	Text
+%define		pnam	MetaText
 Summary:	Text::MetaText - meta-language for processing "template" text files
 Summary(pl):	Text::MetaText - metajêzyk do przetwarzania szablonów tekstowych
 Name:		perl-Text-MetaText
