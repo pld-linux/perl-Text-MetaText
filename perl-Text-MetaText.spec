@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Text::MetaText
 Summary(it):	Modulo di Perl Text::MetaText
 Summary(ja):	Text::MetaText Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Text::MetaText ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Text::MetaText
+Summary(nb):	Perlmodul Text::MetaText
 Summary(pl):	Modu³ Perla Text::MetaText
 Summary(pt):	Módulo de Perl Text::MetaText
 Summary(pt_BR):	Módulo Perl Text::MetaText
@@ -59,7 +59,7 @@ Text::MetaText Perl ¥â¥¸¥å¡¼¥ë
 %description -l ko
 Text::MetaText ÆÞ ¸ðÁÙ.
 
-%description -l no
+%description -l nb
 Perlmodul Text::MetaText.
 
 %description -l pl
