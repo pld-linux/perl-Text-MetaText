@@ -3,7 +3,7 @@ Summary:	Text-MetaText perl module
 Summary(pl):	Modu³ perla Text-MetaText
 Name:		perl-Text-MetaText
 Version:	0.22
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
