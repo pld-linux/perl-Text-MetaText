@@ -35,49 +35,49 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Text::MetaText Perl module.
 
 %description -l cs
-Modul Text::MetaText pro Perl
+Modul Text::MetaText pro Perl.
 
 %description -l da
-Perlmodul Text::MetaText
+Perlmodul Text::MetaText.
 
 %description -l de
-Text::MetaText Perl Modul
+Text::MetaText Perl Modul.
 
 %description -l es
-Módulo de Perl Text::MetaText
+Módulo de Perl Text::MetaText.
 
 %description -l fr
-Module Perl Text::MetaText
+Module Perl Text::MetaText.
 
 %description -l it
-Modulo di Perl Text::MetaText
+Modulo di Perl Text::MetaText.
 
 %description -l ja
 Text::MetaText Perl ¥â¥¸¥å¡¼¥ë
 
 %description -l ko
-Text::MetaText ÆŞ ¸ğÁÙ
+Text::MetaText ÆŞ ¸ğÁÙ.
 
 %description -l no
-Perlmodul Text::MetaText
+Perlmodul Text::MetaText.
 
 %description -l pl
 Modu³ Perla Text::MetaText.
 
 %description -l pt
-Módulo de Perl Text::MetaText
+Módulo de Perl Text::MetaText.
 
 %description -l pt_BR
-Módulo Perl Text::MetaText
+Módulo Perl Text::MetaText.
 
 %description -l ru
-íÏÄÕÌØ ÄÌÑ Perl Text::MetaText
+íÏÄÕÌØ ÄÌÑ Perl Text::MetaText.
 
 %description -l sv
-Text::MetaText Perlmodul
+Text::MetaText Perlmodul.
 
 %description -l uk
-íÏÄÕÌØ ÄÌÑ Perl Text::MetaText
+íÏÄÕÌØ ÄÌÑ Perl Text::MetaText.
 
 %description -l zh_CN
 Text::MetaText Perl Ä£¿é
