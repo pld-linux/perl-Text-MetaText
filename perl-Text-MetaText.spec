@@ -6,7 +6,7 @@
 %define	pdir	Text
 %define	pnam	MetaText
 Summary:	Text::MetaText - meta-language for processing "template" text files
-Summary(pl):	Text::MetaText - meta-jêzyk do preprocesowania szablonów tekstowych
+Summary(pl):	Text::MetaText - metajêzyk do przetwarzania szablonów tekstowych
 Name:		perl-Text-MetaText
 Version:	0.22
 Release:	12
@@ -28,17 +28,29 @@ extension implementing a MetaText object class which processes
 text files, interpreting and acting on the embedded MetaText
 directives within.
 
-Like a glorified pre-processor, MetaText can; include files,
+Like a glorified pre-processor, MetaText can: include files,
 define and substitute variable values, execute conditional
-actions based on variables, call other perl functions or object
+actions based on variables, call other Perl functions or object
 methods and capture the resulting output back into the document,
 and more. It can format the resulting output of any of these
 operations in a number of ways. The objects, and inherently, the
 format and symantics of the MetaText langauge itself, are highly
 configurable.
 
-# %description -l pl
-# TODO
+%description -l pl
+MetaText to metajêzyk do przetwarzania tekstu i oznaczeñ, który mo¿na
+u¿ywaæ do przetwarzania plików "szablonów". Ten modu³ jest
+rozszerzeniem Perla 5 implementuj±cym klasê obiektu MetaText
+przetwarzaj±cego pliki tekstowe, interpretuj±cego i dzia³aj±cego na
+osadzonych w nich dyrektywach MetaTextu.
+
+Podobnie jak ka¿dy zachwalany preprocesor MetaText mo¿e: do³±czaæ
+pliki, definiowaæ i podstawiaæ warto¶ci zmiennych, wykonywaæ akcje
+warunkowe w oparciu o zmienne, wywo³ywaæ inne funkcje Perla lub
+metody obiektów i przechwytywaæ ich wyniki z powrotem do dokumentu
+i wiele innych. Wyj¶cie dowolnej z operacji mo¿e byæ formatowane na
+wiele sposobów. Obiekty i zwi±zany z nimi format oraz semantyka
+samego jêzyka MetaText s± wysoce konfigurowalne.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
