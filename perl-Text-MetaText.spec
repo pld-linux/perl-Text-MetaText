@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	MetaText
-Summary:	Text-MetaText perl module
-Summary(pl):	Modu³ perla Text-MetaText
+Summary:	Text::MetaText perl module
+Summary(pl):	Modu³ perla Text::MetaText
 Name:		perl-Text-MetaText
 Version:	0.22
 Release:	8
@@ -17,10 +17,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-MetaText perl module.
+Text::MetaText perl module.
 
 %description -l pl
-Modu³ perla Text-MetaText.
+Modu³ perla Text::MetaText.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
