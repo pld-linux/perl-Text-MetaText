@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	MetaText
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-MetaText perl module
 Summary(pl):	Modu³ perla Text-MetaText
 Name:		perl-Text-MetaText
 Version:	0.22
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Text-MetaText perl module.
 Modu³ perla Text-MetaText.
 
 %prep
-%setup -q -n Text-MetaText-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
