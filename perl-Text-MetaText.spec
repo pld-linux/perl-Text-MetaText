@@ -20,11 +20,11 @@ Summary(uk):	Модуль для Perl Text::MetaText
 Summary(zh_CN):	Text::MetaText Perl дё©И
 Name:		perl-Text-MetaText
 Version:	0.22
-Release:	9
+Release:	10
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-File-Recurse
 BuildRequires:	perl-TimeDate
@@ -86,7 +86,8 @@ Text::MetaText Perl дё©И
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -101,6 +102,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README Todo Features
 %attr(755,root,root) %{_bindir}/metapage
-%{perl_sitelib}/Text/MetaText.pm
-%{perl_sitelib}/Text/MetaText
+%{perl_vendorlib}/Text/MetaText.pm
+%{perl_vendorlib}/Text/MetaText
 %{_mandir}/man[13]/*
