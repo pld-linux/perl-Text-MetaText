@@ -12,12 +12,12 @@ Summary(ja):	Text::MetaText Perl ╔Б╔╦╔Е║╪╔К
 Summary(ko):	Text::MetaText фч ╦Паы
 Summary(no):	Perlmodul Text::MetaText
 Summary(pl):	ModuЁ Perla Text::MetaText
-Summary(pt):	MСdulo de Perl HTTPD::User::Manage
-Summary(pt_BR):	MСdulo Perl HTTPD::User::Manage
-Summary(ru):	Модуль для Perl HTTPD::User::Manage
-Summary(sv):	HTTPD::User::Manage Perlmodul
-Summary(uk):	Модуль для Perl HTTPD::User::Manage
-Summary(zh_CN):	HTTPD::User::Manage Perl дё©И
+Summary(pt):	MСdulo de Perl Text::MetaText
+Summary(pt_BR):	MСdulo Perl Text::MetaText
+Summary(ru):	Модуль для Perl Text::MetaText
+Summary(sv):	Text::MetaText Perlmodul
+Summary(uk):	Модуль для Perl Text::MetaText
+Summary(zh_CN):	Text::MetaText Perl дё©И
 Name:		perl-Text-MetaText
 Version:	0.22
 Release:	9
