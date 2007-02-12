@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	MetaText
 Summary:	Text::MetaText - meta-language for processing "template" text files
-Summary(pl):	Text::MetaText - metajêzyk do przetwarzania szablonów tekstowych
+Summary(pl.UTF-8):   Text::MetaText - metajÄ™zyk do przetwarzania szablonÃ³w tekstowych
 Name:		perl-Text-MetaText
 Version:	0.22
 Release:	13
@@ -37,20 +37,20 @@ operations in a number of ways. The objects, and inherently, the
 format and symantics of the MetaText langauge itself, are highly
 configurable.
 
-%description -l pl
-MetaText to metajêzyk do przetwarzania tekstu i oznaczeñ, który mo¿na
-u¿ywaæ do przetwarzania plików "szablonów". Ten modu³ jest
-rozszerzeniem Perla 5 implementuj±cym klasê obiektu MetaText
-przetwarzaj±cego pliki tekstowe, interpretuj±cego i dzia³aj±cego na
+%description -l pl.UTF-8
+MetaText to metajÄ™zyk do przetwarzania tekstu i oznaczeÅ„, ktÃ³ry moÅ¼na
+uÅ¼ywaÄ‡ do przetwarzania plikÃ³w "szablonÃ³w". Ten moduÅ‚ jest
+rozszerzeniem Perla 5 implementujÄ…cym klasÄ™ obiektu MetaText
+przetwarzajÄ…cego pliki tekstowe, interpretujÄ…cego i dziaÅ‚ajÄ…cego na
 osadzonych w nich dyrektywach MetaTextu.
 
-Podobnie jak ka¿dy zachwalany preprocesor MetaText mo¿e: do³±czaæ
-pliki, definiowaæ i podstawiaæ warto¶ci zmiennych, wykonywaæ akcje
-warunkowe w oparciu o zmienne, wywo³ywaæ inne funkcje Perla lub
-metody obiektów i przechwytywaæ ich wyniki z powrotem do dokumentu
-i wiele innych. Wyj¶cie dowolnej z operacji mo¿e byæ formatowane na
-wiele sposobów. Obiekty i zwi±zany z nimi format oraz semantyka
-samego jêzyka MetaText s± wysoce konfigurowalne.
+Podobnie jak kaÅ¼dy zachwalany preprocesor MetaText moÅ¼e: doÅ‚Ä…czaÄ‡
+pliki, definiowaÄ‡ i podstawiaÄ‡ wartoÅ›ci zmiennych, wykonywaÄ‡ akcje
+warunkowe w oparciu o zmienne, wywoÅ‚ywaÄ‡ inne funkcje Perla lub
+metody obiektÃ³w i przechwytywaÄ‡ ich wyniki z powrotem do dokumentu
+i wiele innych. WyjÅ›cie dowolnej z operacji moÅ¼e byÄ‡ formatowane na
+wiele sposobÃ³w. Obiekty i zwiÄ…zany z nimi format oraz semantyka
+samego jÄ™zyka MetaText sÄ… wysoce konfigurowalne.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
