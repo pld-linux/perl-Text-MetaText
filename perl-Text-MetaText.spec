@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	MetaText
 Summary:	Text::MetaText - meta-language for processing "template" text files
-Summary(pl.UTF-8):   Text::MetaText - metajęzyk do przetwarzania szablonów tekstowych
+Summary(pl.UTF-8):	Text::MetaText - metajęzyk do przetwarzania szablonów tekstowych
 Name:		perl-Text-MetaText
 Version:	0.22
 Release:	13
