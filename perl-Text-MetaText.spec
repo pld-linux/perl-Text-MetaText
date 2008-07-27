@@ -9,7 +9,7 @@ Summary:	Text::MetaText - meta-language for processing "template" text files
 Summary(pl.UTF-8):	Text::MetaText - metajęzyk do przetwarzania szablonów tekstowych
 Name:		perl-Text-MetaText
 Version:	0.22
-Release:	13
+Release:	14
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
