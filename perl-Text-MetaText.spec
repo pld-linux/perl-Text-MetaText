@@ -4,7 +4,6 @@
 
 %define		pdir	Text
 %define		pnam	MetaText
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::MetaText - meta-language for processing "template" text files
 Summary(pl.UTF-8):	Text::MetaText - metajęzyk do przetwarzania szablonów tekstowych
 Name:		perl-Text-MetaText
